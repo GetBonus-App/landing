@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+        http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd
+        http://www.google.com/schemas/sitemap-image/1.1
+        http://www.google.com/schemas/sitemap-image/1.1/sitemap-image.xsd">
+
+    <!-- Главная страница -->
+    <url>
+        <loc>https://getbonus.red/</loc>
+        <lastmod>2025-01-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>1.0</priority>
+        <image:image>
+            <image:loc>https://getbonus.red/source/img/bg-hero.webp</image:loc>
+            <image:title>GetBonus - Заработок на заданиях от брендов</image:title>
+            <image:caption>Платформа для заработка на заданиях от брендов. Выполняй задания, получай Stars и выводи их в Telegram</image:caption>
+        </image:image>
+    </url>
+
+    <!-- Страница для партнеров -->
+    <url>
+        <loc>https://getbonus.red/partners.html</loc>
+        <lastmod>2025-01-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://getbonus.red/source/img/bg-hero.webp</image:loc>
+            <image:title>GetBonus для партнеров - CPA-трафик и привлечение пользователей</image:title>
+            <image:caption>Привлекайте новых пользователей по CPA-модели. Платите только за результат</image:caption>
+        </image:image>
+    </url>
+
+    <!-- Страница для вебмастеров -->
+    <url>
+        <loc>https://getbonus.red/webmaster.html</loc>
+        <lastmod>2025-01-27</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.9</priority>
+        <image:image>
+            <image:loc>https://getbonus.red/source/img/bg-hero.webp</image:loc>
+            <image:title>GetBonus для вебмастеров - Монетизация аудитории</image:title>
+            <image:caption>Монетизируй свою аудиторию с крупными брендами. CPA-модель, InApp-интеграция</image:caption>
+        </image:image>
+    </url>
+
+    <!-- Политика конфиденциальности -->
+    <url>
+        <loc>https://getbonus.red/privacy-policy.html</loc>
+        <lastmod>2025-01-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+    </url>
+
+    <!-- Пользовательское соглашение -->
+    <url>
+        <loc>https://getbonus.red/user-agreement.html</loc>
+        <lastmod>2025-01-27</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.3</priority>
+    </url>
+
+</urlset>

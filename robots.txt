@@ -1,0 +1,82 @@
+User-agent: *
+Allow: /
+
+# Разрешаем индексацию всех страниц
+Allow: /index.html
+Allow: /partners.html
+Allow: /webmaster.html
+Allow: /privacy-policy.html
+Allow: /user-agreement.html
+
+# Запрещаем индексацию служебных файлов и папок
+Disallow: /source/
+Disallow: /.git/
+Disallow: /.vscode/
+Disallow: /node_modules/
+Disallow: /package.json
+Disallow: /package-lock.json
+Disallow: /README.md
+Disallow: /.gitignore
+
+# Запрещаем индексацию временных файлов
+Disallow: /*.tmp
+Disallow: /*.temp
+Disallow: /*.log
+Disallow: /*.cache
+
+# Запрещаем индексацию файлов разработки
+Disallow: /*.sass
+Disallow: /*.scss
+Disallow: /*.less
+Disallow: /*.map
+
+# Разрешаем индексацию изображений и медиа
+Allow: /source/img/
+Allow: /source/fonts/
+Allow: /source/style/css/
+
+# Указываем расположение sitemap
+Sitemap: https://getbonus.red/sitemap.xml
+
+# Время задержки между запросами (в секундах)
+Crawl-delay: 1
+
+# Дополнительные настройки для поисковых роботов
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 0.5
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Yandex
+Allow: /
+Crawl-delay: 1
+
+# Запрещаем индексацию для архивных роботов
+User-agent: ia_archiver
+Disallow: /
+
+User-agent: archive.org_bot
+Disallow: /
+
+# Настройки для социальных сетей
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+# Настройки для аналитических сервисов
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10
+
+User-agent: MJ12bot
+Crawl-delay: 10
