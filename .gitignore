@@ -1,0 +1,71 @@
+# ВАЖНО: сайт раздаётся GitHub Pages прямо из репозитория.
+# Всё, что нужно для отдачи страниц, ДОЛЖНО оставаться в git, даже если оно
+# сгенерировано:
+#   source/style/css/style.css   — компилируется из sass, но отдаётся браузеру
+#   en/ es/ fr/                  — генерируются из русских страниц, но это и есть сайт
+#   sitemap.xml, robots.txt, CNAME
+# Не добавляйте их сюда — иначе Pages отдаст 404.
+
+# ---- macOS ----
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ---- Windows ----
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# ---- Linux ----
+.directory
+.Trash-*
+*~
+
+# ---- редакторы / IDE ----
+.idea/
+.vscode/
+*.sublime-workspace
+*.sublime-project
+*.swp
+*.swo
+
+# ---- Prepros ----
+# prepros.config закоммичен намеренно: это конфиг сборки sass -> css,
+# машинно-зависимых путей в нём нет.
+.prepros-cache/
+prepros/
+*.prepros-cache
+
+# ---- сорсмапы ----
+# Prepros собирает с sourceMap: false, в style.css ссылок на них нет.
+*.css.map
+*.js.map
+
+# ---- зависимости (сейчас не используются, но robots.txt их уже упоминает) ----
+node_modules/
+.npm
+.pnp
+.pnp.js
+package-lock.json.bak
+
+# ---- логи и временные файлы ----
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.tmp
+*.temp
+*.bak
+*.orig
+*.rej
+
+# ---- локальная разработка ----
+.env
+.env.local
+.cache/
+.claude/

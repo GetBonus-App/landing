@@ -1,12 +1,15 @@
 User-agent: *
 Allow: /
 
-# Разрешаем индексацию всех страниц
+# Разрешаем индексацию всех страниц (ru в корне, en/es в подкаталогах)
 Allow: /index.html
 Allow: /partners.html
 Allow: /webmaster.html
 Allow: /privacy-policy.html
 Allow: /user-agreement.html
+Allow: /en/
+Allow: /es/
+Allow: /fr/
 
 # Запрещаем индексацию служебных файлов и папок
 Disallow: /source/

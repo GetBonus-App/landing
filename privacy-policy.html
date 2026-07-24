@@ -14,16 +14,19 @@
     
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://getbonus.red/privacy-policy.html">
+    <meta property="og:url" content="https://getbonus.red/privacy-policy">
     <meta property="og:title" content="Политика конфиденциальности GetBonus">
     <meta property="og:description" content="Как мы защищаем ваши персональные данные. Обработка данных в соответствии с ФЗ-152.">
     <meta property="og:image" content="https://getbonus.red/source/img/bg-hero.webp">
     <meta property="og:site_name" content="GetBonus">
     <meta property="og:locale" content="ru_RU">
+    <meta property="og:locale:alternate" content="en_GB" />
+    <meta property="og:locale:alternate" content="es_ES" />
+    <meta property="og:locale:alternate" content="fr_FR" />
     
     <!-- Twitter -->
     <meta property="twitter:card" content="summary_large_image">
-    <meta property="twitter:url" content="https://getbonus.red/privacy-policy.html">
+    <meta property="twitter:url" content="https://getbonus.red/privacy-policy">
     <meta property="twitter:title" content="Политика конфиденциальности GetBonus">
     <meta property="twitter:description" content="Как мы защищаем ваши персональные данные. Обработка данных в соответствии с ФЗ-152.">
     <meta property="twitter:image" content="https://getbonus.red/source/img/bg-hero.webp">
@@ -31,16 +34,21 @@
     <!-- Additional SEO -->
     <meta name="theme-color" content="#E02049">
     <meta name="msapplication-TileColor" content="#E02049">
-    <link rel="canonical" href="https://getbonus.red/privacy-policy.html">
+    <link rel="canonical" href="https://getbonus.red/privacy-policy">
+    <link rel="alternate" hreflang="ru" href="https://getbonus.red/privacy-policy" />
+    <link rel="alternate" hreflang="en" href="https://getbonus.red/en/privacy-policy" />
+    <link rel="alternate" hreflang="es" href="https://getbonus.red/es/privacy-policy" />
+    <link rel="alternate" hreflang="fr" href="https://getbonus.red/fr/privacy-policy" />
+    <link rel="alternate" hreflang="x-default" href="https://getbonus.red/en/privacy-policy" />
     <!-- Sitemap -->
     <link rel="sitemap" type="application/xml" title="Sitemap" href="https://getbonus.red/sitemap.xml">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/svg+xml" href="source/img/favicon.ico">
-    <link rel="apple-touch-icon" href="source/img/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/source/img/favicon.ico">
+    <link rel="apple-touch-icon" href="/source/img/apple-touch-icon.png">
 
-    <link rel="stylesheet" href="source/style/css/style.css">
-    <link rel="stylesheet" href="source/fonts/stylesheet.css">
+    <link rel="stylesheet" href="/source/style/css/style.css">
+    <link rel="stylesheet" href="/source/fonts/stylesheet.css">
     
     <!-- Structured Data -->
     <script type="application/ld+json">
@@ -89,15 +97,42 @@
     <header role="banner">
         <div class="container">
             <div class="header-s">
-                <a href="index.html" class="header-logo" aria-label="Главная страница GetBonus">
-                    <img src="source/img/white-logo.svg" alt="GetBonus - Логотип платформы для заработка на заданиях">
+                <a href="/" class="header-logo" aria-label="Главная страница GetBonus">
+                    <img src="/source/img/white-logo.svg" alt="GetBonus - Логотип платформы для заработка на заданиях">
                 </a>
                 <nav role="navigation" aria-label="Главное меню">
-                    <a href="index.html" class="nav-link">Для пользователей</a>
-                    <a href="partners.html" class="nav-link">Для партнеров</a>
-                    <a href="webmaster.html" class="nav-link">Для вебмастеров</a>
+                    <a href="/" class="nav-link">Для пользователей</a>
+                    <a href="/partners" class="nav-link">Для рекламодателей</a>
+                    <a href="/webmaster" class="nav-link">Для вебмастеров</a>
                 </nav>
-                <a href="https://app.getbonus.red" class="white-btn">Войти</a>
+                <div class="header-actions">
+                    <a href="https://app.getbonus.red" class="white-btn">Войти</a>
+                    <details class="lang-dropdown">
+                        <summary class="lang-current" title="Язык сайта" aria-label="Язык сайта">
+                            <img src="/source/img/flags/ru.svg" alt="" class="lang-flag" width="20" height="14" />
+                            <span class="lang-code">RU</span>
+                            <span class="lang-caret" aria-hidden="true"></span>
+                        </summary>
+                        <div class="lang-menu">
+                            <a href="/privacy-policy" class="lang-item active" lang="ru" hreflang="ru" aria-current="page">
+                                <img src="/source/img/flags/ru.svg" alt="" class="lang-flag" width="20" height="14" />
+                                <span class="lang-name">Русский</span>
+                            </a>
+                            <a href="/en/privacy-policy" class="lang-item" lang="en" hreflang="en">
+                                <img src="/source/img/flags/en.svg" alt="" class="lang-flag" width="20" height="14" />
+                                <span class="lang-name">English</span>
+                            </a>
+                            <a href="/es/privacy-policy" class="lang-item" lang="es" hreflang="es">
+                                <img src="/source/img/flags/es.svg" alt="" class="lang-flag" width="20" height="14" />
+                                <span class="lang-name">Español</span>
+                            </a>
+                            <a href="/fr/privacy-policy" class="lang-item" lang="fr" hreflang="fr">
+                                <img src="/source/img/flags/fr.svg" alt="" class="lang-flag" width="20" height="14" />
+                                <span class="lang-name">Français</span>
+                            </a>
+                        </div>
+                    </details>
+                </div>
                 
                 <!-- Бургер меню -->
                 <div class="burger-menu" aria-label="Открыть меню">
@@ -108,10 +143,10 @@
                 
                 <!-- Мобильное меню -->
                 <div class="mobile-menu">
-                    <a href="index.html" class="nav-link">Для пользователей</a>
-                    <a href="partners.html" class="nav-link">Для партнеров</a>
-                    <a href="webmaster.html" class="nav-link">Для вебмастеров</a>
-                    <a href="https://app.getbonus.red" class="nav-link">Войти</a>
+                    <a href="/" class="nav-link">Для пользователей</a>
+                    <a href="/partners" class="nav-link">Для рекламодателей</a>
+                    <a href="/webmaster" class="nav-link">Для вебмастеров</a>
+                    <a href="#contacts" class="nav-link">Контакты</a>
                 </div>
             </div>
         </div>
@@ -228,31 +263,31 @@
                         <div class="f-group-link">
                             <span class="f-group-link-title">Навигация</span>
                             <div class="footer-links">
-                                <a href="index.html">Для пользователей</a>
-                                <a href="partners.html">Для партнёров</a>
-                                <a href="webmaster.html">Для вебмастеров</a>
+                                <a href="/">Для пользователей</a>
+                                <a href="/partners">Для партнёров</a>
+                                <a href="/webmaster">Для вебмастеров</a>
                             </div>
                         </div>
                         <div class="f-group-link">
                             <span class="f-group-link-title">Контакты</span>
                             <div class="footer-links">
-                                <a href="mailto:nikita.v@getbonus.red" target="_blank"><img src="source/img/mail-icon-grey.svg" alt="Email иконка">nikita.v@getbonus.red</a>
-                                <a href="https://t.me/MrGetBonus" target="_blank" rel="noopener"><img src="source/img/telegram-icon-grey.svg" alt="Telegram иконка">@MrGetBonus</a>
+                                <a href="mailto:nikita.v@getbonus.red" target="_blank"><img src="/source/img/mail-icon-grey.svg" alt="Email иконка">nikita.v@getbonus.red</a>
+                                <a href="https://t.me/MrGetBonus" target="_blank" rel="noopener"><img src="/source/img/telegram-icon-grey.svg" alt="Telegram иконка">@MrGetBonus</a>
                             </div>
                         </div>
                         <div class="f-group-link">
                             <span class="f-group-link-title">Социальные сети</span>
                             <div class="footer-links">
-                                <a href="https://t.me/getbonustg" target="_blank" rel="noopener"><img src="source/img/telegram-icon-grey.svg" alt="Telegram иконка">Telegram</a>
-                                <a href="https://x.com/GetBonusGlobal" target="_blank" rel="noopener"><img src="source/img/x-icon-grey.svg" alt="X (Twitter) иконка">X (Twitter)</a>
-                                <a href="https://bit.ly/4btthwp" target="_blank" rel="noopener"><img src="source/img/youtube-icon-grey.svg" alt="YouTube иконка">YouTube</a>
+                                <a href="https://t.me/getbonustg" target="_blank" rel="noopener"><img src="/source/img/telegram-icon-grey.svg" alt="Telegram иконка">Telegram</a>
+                                <a href="https://x.com/GetBonusGlobal" target="_blank" rel="noopener"><img src="/source/img/x-icon-grey.svg" alt="X (Twitter) иконка">X (Twitter)</a>
+                                <a href="https://bit.ly/4btthwp" target="_blank" rel="noopener"><img src="/source/img/youtube-icon-grey.svg" alt="YouTube иконка">YouTube</a>
                             </div>
                         </div>
                         <div class="f-group-link">
                             <span class="f-group-link-title">Правовая информация</span>
                             <div class="footer-links">
-                                <a href="privacy-policy.html">Политика конфиденциальности</a>
-                                <a href="user-agreement.html">Пользовательское соглашение</a>
+                                <a href="/privacy-policy">Политика конфиденциальности</a>
+                                <a href="/user-agreement">Пользовательское соглашение</a>
                             </div>
                         </div>
                     </div>
@@ -261,6 +296,6 @@
             </div>
         </footer>
     </main>
-    <script src="source/js/script.js"></script>
+    <script src="/source/js/script.js"></script>
 </body>
 </html>
