@@ -7,6 +7,8 @@ Allow: /partners.html
 Allow: /webmaster.html
 Allow: /privacy-policy.html
 Allow: /user-agreement.html
+Allow: /cookie-policy.html
+Allow: /personal-data-consent.html
 Allow: /en/
 Allow: /es/
 Allow: /fr/
